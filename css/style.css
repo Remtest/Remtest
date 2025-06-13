@@ -24,6 +24,9 @@ body {
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.80857;
+  overflow-x: hidden; /* Blocks horizontal scroll */
+  position: relative; /* Helps with absolute/fixed elements */
+  width: 100%;
 }
 
 a {
