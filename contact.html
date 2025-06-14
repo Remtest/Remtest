@@ -53,7 +53,7 @@
             .then((res) => {
                 console.log(res);
                 alert("Your message was sent, thank you!!");
-				window.location.href = 'thank-you.html';
+				window.location.href = 'thank-you';
                 // location.reload();
                     })
                     .catch(err=>console.log(err));
@@ -130,7 +130,7 @@
 			<div class="banner-content">
 				<div class="col-lg-12 text-center">
 					<ul class="list-inline mb-0">
-						<h1 class="list-inline-item"><a href="index.html" class="text-sm letter-spacing  text-uppercase ">HOME</a></h1>
+						<h1 class="list-inline-item"><a href="index" class="text-sm letter-spacing  text-uppercase ">HOME</a></h1>
 						<h2 class="list-inline-item"><span class="text-white">|</span></h2>
 						<p class="list-inline-item"  class="text-color text-uppercase text-sm letter-spacing">CONTACT</p> 
 					</ul>
@@ -195,7 +195,7 @@
 					<form id="contactForm">
 
 
-					<input type="hidden" name="_next" value="http://127.0.0.1:5500/thank-you.html">
+					<input type="hidden" name="_next" value="http://127.0.0.1:5500/thank-you">
 
 					<div class="form-group">
 						<input type="text" placeholder="Your Name" class="form-control" name="from_name" id="name" required>
