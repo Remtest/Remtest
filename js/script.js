@@ -94,52 +94,7 @@ document.querySelectorAll(".read-more").forEach(button => {
       }, 500);
     }
     
-    // // Add message to chat
-    // function addMessage(text, sender) {
-    //   const messageDiv = document.createElement('div');
-    //   messageDiv.classList.add('message', sender);
-      
-    //   // Format message text
-    //   messageDiv.textContent = text;
-      
-    //   // Add timestamp
-    //   const timeDiv = document.createElement('div');
-    //   timeDiv.classList.add('message-time');
-    //   timeDiv.textContent = getCurrentTime();
-    //   messageDiv.appendChild(timeDiv);
-      
-    //   // Add to chat
-    //   chatMessages.appendChild(messageDiv);
-    //   scrollToBottom();
-      
-    //   // If chat is closed and message is from support, show notification
-    //   if (sender === 'support' && !chatWindow.classList.contains('active')) {
-    //     notificationDot.classList.add('active');
-    //   }
-    // }
-    
-    // // Get current time in 12-hour format
-    // function getCurrentTime() {
-    //   const now = new Date();
-    //   let hours = now.getHours();
-    //   const minutes = now.getMinutes().toString().padStart(2, '0');
-    //   const ampm = hours >= 12 ? 'PM' : 'AM';
-    //   hours = hours % 12;
-    //   hours = hours ? hours : 12; // Convert 0 to 12
-    //   return `${hours}:${minutes} ${ampm}`;
-    // }
-    
-    // // Scroll chat to bottom
-    // function scrollToBottom() {
-    //   chatMessages.scrollTop = chatMessages.scrollHeight;
-    // }
-    
-    // // Simulate an initial customer support message after 3 seconds
-    // setTimeout(() => {
-    //   if (!chatWindow.classList.contains('active')) {
-    //     notificationDot.classList.add('active');
-    //   }
-    // }, 3000);
+  
 
 
    

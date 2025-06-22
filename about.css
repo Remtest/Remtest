@@ -50,7 +50,7 @@
 .top-header .navbar .navbar-collapse ul li a {
   text-transform: uppercase;
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 10px 10px;
   position: relative;
   font-weight: 500;
 }
@@ -398,7 +398,6 @@ a {
   font-size: 17px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  
 }
 .footer-widget span {
   font-size: 16px;
